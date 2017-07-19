@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/javascript/app.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1 id="heading">Trivia Game - Boxing!!</h1>
+
+	<div id="quiz-time-left"></div>
+	
+	<form id = "quiz" name = "quiz">
+		<div id = "container">
+		<p>1. Whose quote is <q>Float like a butterfly, sting like a bee</q>? </p>
+
+		<input id="questions" type="radio" name="question1" value="George-Foreman">George Foreman<br>
+		<input id="questions" type="radio" name="question1" value="Joe-Frazier">Joe Frazier<br>
+		<input id="questions" type="radio" name="question1" value="Muhammad-Ali">Muhammad Ali<br>
+		<input id="questions" type="radio" name="question1" value="Mike-Tyson">Mike Tyson<br>
+
+		<p>2. Whose quote is <q>Everyone has a plan till they get pinched in the mouth</q>? </p>
+		
+		<input id="questions" type="radio" name="question2" value="Donald-Trump">Donald Trump<br>
+		<input id="questions" type="radio" name="question2" value="Mike-Tyson">Mike Tyson<br>
+		<input id="questions" type="radio" name="question2" value="Dwayne-Johnson">Dwayne Johnson<br>
+		<input id="questions" type="radio" name="question2" value="Saul-Alvarez">Saul Alvarez<br>
+
+		<p>3. Who won the fight between Pacquiao vs. Mayweather in 2015? </p>
+
+		<input id="questions" type="radio" name="question3" value="Manny-Pacquiao">Manny Pacquiao<br>
+		<input id="questions" type="radio" name="question3" value="Floyd-Mayweather">Floyd Mayweather<br>
+		
+
+		<p>4. Who will be the happiest guy after the fight between Conor McGregor vs. Floyd Mayweather in August 26th? </p>
+		
+		<input id="questions" type="radio" name="question4" value="Floyd-Mayweather">Floyd Mayweather<br>
+		<input id="questions" type="radio" name="question4" value="Conor-McGregor">Conor McGregor<br>
+		<input id="questions" type="radio" name="question4" value="Dana-White">Dana White<br>
+		
+		</div>
+		<input id="button" type="button" value="Done!" onclick="check();">
+
+	</form>
+	
+	<div id="results">
+		<p id = "number-correct"></p>
+		<p id = "message"></p>
+		<img id="gif">
+	</div>
+	
+	
+
+</body>
+</html>
